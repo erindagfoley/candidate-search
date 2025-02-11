@@ -2,7 +2,6 @@
 
 ## Description
 This application was made for hiring managers. It will call the GitHub API to show GitHub users with a description that includes name, location, bio, and other information. The user can click a ✅ button which will allow them to add a GitHub user to a potential candidates page. If the user does not want to consider the candidate, they can click the ❌ button and view the next candidate. This is repeated until there are no candidates to display. Then, they can go to the Potential Candidates page to see a table of the candidates they saved. 
- ![image](https://github.com/user-attachments/assets/bbf6331d-a2a9-4d09-8a39-6a9301907e6a)
 
 ## Table of Contents
 - [Description](#description)
