@@ -1,7 +1,7 @@
 # Candidate Search
 
 ## Description
-This application was made for hiring manageers. It will call the GitHub API to show GitHub users with a description that includes name, location, bio, and other information. The user can click a ✅ button which will allow them to add a GitHub user to a potential candidates page. If the user does not want to consider the candidate, they can click the ❌ button and view the next candidate. This is repeated until there are no candidates to display. Then, they can go to the Potential Candidates page to see a table of the candidates they saved. 
+This application was made for hiring managers. It will call the GitHub API to show GitHub users with a description that includes name, location, bio, and other information. The user can click a ✅ button which will allow them to add a GitHub user to a potential candidates page. If the user does not want to consider the candidate, they can click the ❌ button and view the next candidate. This is repeated until there are no candidates to display. Then, they can go to the Potential Candidates page to see a table of the candidates they saved. 
  
 ## Table of Contents
 - [Description](#description)
