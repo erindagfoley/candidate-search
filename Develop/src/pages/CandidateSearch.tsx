@@ -38,6 +38,24 @@ const CandidateSearch = () => {
   },[ ])
 
   return(<>
+  <section id='searchSection'>
+    <form
+    onSubmit={(data: FormData) => 
+      searchGithubUser(data, searchInput)
+    }
+    >
+      <input
+      type='text'
+      name=''
+      id=''
+      placeholder='Enter a user'
+      onChange={(e) => setCandidates(e.target.value)
+        />
+        <button type:'submit' id='submitButton'>
+      }
+      Search
+    </form>
+  </section>
   <h1>CandidateSearch</h1>;
   </> )
 };
