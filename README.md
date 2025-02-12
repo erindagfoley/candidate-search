@@ -18,6 +18,9 @@ This application was made for hiring managers. It will call the GitHub API to sh
 ## Usage
 This project allowed me to learn how to use React with TypeScript, specifically more about how to use useState and useEffect hooks.
 
+## Collaborators
+Thank you to Sangeetha Kaliaperumal and Kayvon Kazemini for their assistance in creating this project.
+
 ## Questions
 Feel free to add any suggestions for this project as it has some bugs. If you have any questions about this project, feel free to reach out:
 - GitHub: erindagfoley
