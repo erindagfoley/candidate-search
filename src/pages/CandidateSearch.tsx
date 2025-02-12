@@ -50,7 +50,7 @@ const CandidateSearch = () => {
             <p>Location: {currentCandidate.location || 'Unavailable'}</p>
             <p>Email: {currentCandidate.email || 'Unavailable'}</p>
             <p>Company: {currentCandidate.company || 'Unavailable'}</p>
-            <a href= {currentCandidate.avatar_url} >
+            <a href= {currentCandidate.avatar_url || "#"} >
               GitHub Profile
             </a>
           </div>

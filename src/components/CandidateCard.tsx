@@ -1,6 +1,7 @@
 import type Candidate from '../interfaces/Candidate.interface';
 import { ImCross } from 'react-icons/im';
 import { CgPlayListAdd } from 'react-icons/cg';
+import { MouseEvent } from 'react';
 
 type CandidateProps = {
     currentCandidate: Candidate | null;
@@ -16,7 +17,7 @@ const CandidateCard = ({
     currentCandidate,
     addToSavedCandidates,
     removeFromStorage,
-} : CandidateProps) => {
+}: CandidateProps) => {
     if (!currentCandidate) {
         return <h1 style={{ margin: '16px 0' }}>Please search for a candidate.</h1>;
     }
@@ -48,10 +49,10 @@ const CandidateCard = ({
             <div>
                 {removeFromStorage ? (
                     <ImCross
-                        style={{ fontSize: '40px'}}
+                        style={{ fontSize: '40px' }}
                         onClick={(e) => {
                             removeFromStorage(
-                                e,
+                                e as unknown as React.MouseEvent<SVGSVGElement, MouseEvent>,
                                 addToSavedCandidates ? true : null,
                                 currentCandidate.name ?? null
                             );
