@@ -50,12 +50,9 @@ const CandidateSearch = () => {
             <p>Location: {currentCandidate.location || 'Unavailable'}</p>
             <p>Email: {currentCandidate.email || 'Unavailable'}</p>
             <p>Company: {currentCandidate.company || 'Unavailable'}</p>
-            {/* <a href={currentCandidate.avatar_url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href= {currentCandidate.avatar_url} >
               GitHub Profile
-            </a> */}
+            </a>
           </div>
           <div>
             <button onClick={handleDislike}>❌</button>
