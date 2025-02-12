@@ -26,13 +26,13 @@ const CandidateSearch = () => {
   }, []);
 
   const handleLike = () => {
-    setCurrentIndex((prev) => prev + 1);
     setCurrentCandidate(candidates[currentIndex]);
+    setCurrentIndex((prev) => prev + 1);
   };
 
   const handleDislike = () => {
-    setCurrentIndex((prev) => prev + 1);
     setCurrentCandidate(candidates[currentIndex]);
+    setCurrentIndex((prev) => prev + 1);
   };
 
   return (
